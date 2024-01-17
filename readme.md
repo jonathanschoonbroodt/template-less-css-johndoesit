@@ -32,14 +32,22 @@ https://lesscss.org
 Projects are organized into the following categories:
 
 Constants: These files include variables that define constants used throughout the project.
+
 Tools: These files include utility styles, such as a normalize file and a clearfix file.
+
 Selectors: These file provide overidding for some selector to make customisation easier and can be used to include styles for various types of selectors, such as classes, IDs, and pseudo-classes.
+
 Elements: These files include styles for specific HTML elements.
+
 Components: These files include styles for reusable component.
+
 Structures: These files include styles for structural elements, such as the footer and navbar.
+
 Layouts: These files include styles for specific page layouts.
+
 Helpers: These files include utility styles for things like animations, flexbox, text etc.
 
+## Examples
 Constants are used to define common properties with the @constant: value; syntax.
 ```
 @xxs: 320px;
