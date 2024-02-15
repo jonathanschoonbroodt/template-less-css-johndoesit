@@ -33,8 +33,14 @@
         display: none;
       }
     }
-    
+
     &.-xlres {
+      @media (max-width: (@xl - 1px)) {
+        display: none;
+      }
+    }
+    
+    &.-xxlres {
       @media (max-width: (@xxl - 1px)) {
         display: none;
       }
@@ -71,8 +77,14 @@
         display: none;
       }
     }
-    
+
     &.-xlres {
+      @media (min-width: (@xl)) {
+        display: none;
+      }
+    }
+    
+    &.-xxlres {
       @media (min-width: (@xxl)) {
         display: none;
       }
